@@ -40,6 +40,7 @@ function success(position)
         center: coords,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
+    alert('Latitude is '+myLat+' and longitude is '+myLong);
     var map = new google.maps.Map(document.getElementById("map"),mapOptions);
     var marker = new google.maps.Marker({
                 position:coords,
@@ -48,7 +49,7 @@ function success(position)
             })
 
 }
-function failure(){}
+function failure(){ }
 
 </script>  
 </head>
@@ -75,6 +76,6 @@ function failure(){}
         </nav>
         <div id="map"></div>        
 
-<a href="https://www.github.com" target="_blank" rel = "noopener noreferrer"> Go to Github.com" </a>
+<a href="https://www.github.com" target="_blank" rel = "noopener noreferrer"> Go to Github.com </a>
 </body>
 </html>
