@@ -10,12 +10,12 @@
     "icons":[
         {
             "src": "lightblue.jpg",
-            "sizes": "1633 x 1633",
+            "sizes": "512 x 512",
             "type": "jpg"
         },
         {
             "src": "lightgold.jpg",
-            "sizes": "407 x 407",
+            "sizes": "512 x 512",
             "type": "jpg"
         }
     ]
