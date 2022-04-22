@@ -10,7 +10,7 @@
     "icons":[
         {
             "src": "lightblue.jpg",
-            "sizes": "512 x 512",
+            "sizes": "256 x 256",
             "type": "jpg"
         },
         {
