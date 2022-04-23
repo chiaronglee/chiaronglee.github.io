@@ -9,44 +9,44 @@
     "display": "standalone",
     "icons":[
         {
-            "src": "lightblue192.jpg",
+            "src": "lightblue192.png",
             "sizes": "192x192",
-            "type": "jpg"
+            "type": "png"
         },  
         {
-            "src": "lightblue256.jpg",
+            "src": "lightblue256.png",
             "sizes": "256x256",
-            "type": "jpg"
+            "type": "png"
         },  
         {
-            "src": "lightblue384.jpg",
+            "src": "lightblue384.png",
             "sizes": "384x384",
-            "type": "jpg"
+            "type": "png"
         },  
         {
-            "src": "lightblue512.jpg",
+            "src": "lightblue512.png",
             "sizes": "512x512",
-            "type": "jpg"
+            "type": "png"
         },
         {
-            "src": "lightgold192.jpg",
+            "src": "lightgold192.png",
             "sizes": "192x192",
-            "type": "jpg"
+            "type": "png"
         },
         {
-            "src": "lightgold256.jpg",
+            "src": "lightgold256.png",
             "sizes": "256x256",
-            "type": "jpg"
+            "type": "png"
         },
         {
-            "src": "lightgold384.jpg",
+            "src": "lightgold384.png",
             "sizes": "384x384",
-            "type": "jpg"
+            "type": "png"
         },
         {
-            "src": "lightgold512.jpg",
+            "src": "lightgold512.png",
             "sizes": "512x512",
-            "type": "jpg"
+            "type": "png"
         }
     ]
 }
