@@ -9,42 +9,22 @@
     "display": "standalone",
     "icons":[
         {
-            "src": "lightblue192.png",
+            "src": "boat192.png",
             "sizes": "192x192",
             "type": "png"
         },  
         {
-            "src": "lightblue256.png",
+            "src": "boat256.png",
             "sizes": "256x256",
             "type": "png"
         },  
         {
-            "src": "lightblue384.png",
+            "src": "boat384.png",
             "sizes": "384x384",
             "type": "png"
         },  
         {
-            "src": "lightblue512.png",
-            "sizes": "512x512",
-            "type": "png"
-        },
-        {
-            "src": "lightgold192.png",
-            "sizes": "192x192",
-            "type": "png"
-        },
-        {
-            "src": "lightgold256.png",
-            "sizes": "256x256",
-            "type": "png"
-        },
-        {
-            "src": "lightgold384.png",
-            "sizes": "384x384",
-            "type": "png"
-        },
-        {
-            "src": "lightgold512.png",
+            "src": "boat512.png",
             "sizes": "512x512",
             "type": "png"
         }
