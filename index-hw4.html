@@ -19,7 +19,7 @@
         }
       });
     </script>
-    
+    <script src="jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="styles-hw4.css">
     <link rel="manifest" href="manifest.json">   
     <link rel="apple-touch-icon" href="boat192.png">
@@ -32,34 +32,38 @@
     <link rel="icon" href="boat512.png">
   </head>
 
-  <body>
+  <body id="body">
     
     <h1>Basic Service Worker Sample</h1>
     <p>This page will demonstrate a basic service worker that you can use later on and customize accordingly</p>
 
     <h3>Demo with images</h3>
     <p>The first time you request one of the images, the service worker will be load it from the network, but the next time, it will be retrieved from the cache.</p>
-    <label for="images">Choose the Image to be shown:</label>
+    <label for="images">Choose the Background Images</label>
     <select id="images">
-      <option value="lightblue.jpg">LightBlue</option>
-      <option value="lightgold.jpg">LightGold</option>
-      
+      <option value="lightblue.png">lightblue</option>
+      <option value="lightgold.png">lightgold</option>
     </select>
-    <button id="show">Show background Selected</button>
+  
+    <button id="show">Show image Selected</button>
     <div id="container"></div>
     
       <script>
         if ('serviceWorker' in navigator) {
           navigator.serviceWorker.register('service-worker.js');
         }
-
+     
+           
         document.querySelector('#show').addEventListener('click', () => {
-          const iconUrl = document.querySelector('select').selectedOptions[0].value;
+          const imgUrl = document.querySelector('select').selectedOptions[0].value;
           let imgElement = document.createElement('img');
-          imgElement.src = iconUrl;
-          document.querySelector('#container').appendChild(imgElement);
-        });
-      </script>
+            imgElement.src = imgUrl;
+            document.querySelector('#container').appendChild(imgElement);
+         });
+         
+         $('img').css('background-image','url(lightblue.jpg)');
+  
+     </script>
 
   </body>
 </html>
