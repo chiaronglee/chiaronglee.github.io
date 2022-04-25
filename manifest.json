@@ -2,7 +2,7 @@
     "name":"Progressive Web Application",
     "short_name":"pwa",
     "lang": "en-US",
-    "start_url":"/",
+    "start_url":"https://chiaronglee.github.io/",
     "orientation": "portrait",
     "background_color": "#6dcdb1",
     "theme_color":"#009578",
