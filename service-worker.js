@@ -3,6 +3,11 @@ var CACHE_FILES = [
     './',
     'index-hw4.html',
     'boat192.png',
+    'boat256.png',
+    'boat384.png',
+    'boat512.png',
+    'lightblue.jpg',
+    'lightgold.jpb',
     'app.js',
     'styles-hw4.css'
 ];
