@@ -7,9 +7,10 @@ var CACHE_FILES = [
     'boat384.png',
     'boat512.png',
     'lightblue.jpg',
-    'lightgold.jpb',
+    'lightgold.jpg',
     'app.js',
-    'styles-hw4.css'
+    'styles-hw4.css',
+    'manifest.json'
 ];
 
 self.addEventListener('install', event => {
