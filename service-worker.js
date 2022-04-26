@@ -2,6 +2,7 @@ var CACHE_VERSION = 'myapp-v1';
 var CACHE_FILES = [
     './',
     'index-hw4.html',
+    'boat144.png',
     'boat192.png',
     'boat256.png',
     'boat384.png',
