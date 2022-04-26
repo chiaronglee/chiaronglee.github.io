@@ -1,16 +1,16 @@
 var CACHE_VERSION = 'myapp-v1';
 var CACHE_FILES = [
     './',
-    'index-hw4.html',
-    'boat192.png',
-    'boat256.png',
-    'boat384.png',
-    'boat512.png',
-    'lightblue.jpg',
-    'lightgold.jpg',
-    'app.js',
-    'styles-hw4.css',
-    'manifest.json'
+    'pwa/index-hw4.html',
+    'pwa/images/boat192.png',
+    'pwa/images/boat256.png',
+    'pwa/images/boat384.png',
+    'pwa/images/boat512.png',
+    'pwa/images/lightblue.jpg',
+    'pwa/images/lightgold.jpg',
+    'pwa/app.js',
+    'css/styles-hw4.css',
+    'pwa/manifest.json'
 ];
 
 self.addEventListener('install', event => {
