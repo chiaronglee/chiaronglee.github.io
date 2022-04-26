@@ -18,51 +18,56 @@
           error.preventDefault();
         }
       });
+
+
     </script>
-    <script src="jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" href="styles-hw4.css">
-    <link rel="manifest" href="manifest.json">   
-    <link rel="apple-touch-icon" href="boat192.png">
-    <link rel="apple-touch-icon" href="boat256.png">
-    <link rel="apple-touch-icon" href="boat384.png">
-    <link rel="apple-touch-icon" href="boat512.png">
-    <link rel="icon" href="boat192.png">
-    <link rel="icon" href="boat256.png">
-    <link rel="icon" href="boat384.png">
-    <link rel="icon" href="boat512.png">
+    <script>
+      function handleOnChangeEvent(x){
+          document.body.style.backgroundImage="url('"+x+"')";
+      }
+  </script>
+    <link rel="stylesheet" href="css/styles-hw4.css">
+    <link rel="manifest" href="pwa/manifest.json">   
+    <link rel="apple-touch-icon" href="pwa/images/boat192.png">
+    <link rel="apple-touch-icon" href="pwa/images/boat256.png">
+    <link rel="apple-touch-icon" href="pwa/images/boat384.png">
+    <link rel="apple-touch-icon" href="pwa/images/boat512.png">
+    <link rel="icon" href="pwa/images/boat192.png">
+    <link rel="icon" href="pwa/images/boat256.png">
+    <link rel="icon" href="pwa/images/boat384.png">
+    <link rel="icon" href="pwa/images/boat512.png">
   </head>
 
-  <body id="body">
+  <body>
     
-    <h1>Basic Service Worker Sample</h1>
-    <p>This page will demonstrate a basic service worker that you can use later on and customize accordingly</p>
-
-    <h3>Demo with images</h3>
-    <p>The first time you request one of the images, the service worker will be load it from the network, but the next time, it will be retrieved from the cache.</p>
-    <label for="images">Choose the Background Images</label>
-    <select id="images">
-      <option value="lightblue.png">lightblue</option>
-      <option value="lightgold.png">lightgold</option>
-    </select>
-  
-    <button id="show">Show image Selected</button>
+    <h1>PWA Characteristics</h1>
+    <p>Progressive web apps are all designed to work on any browser 
+      that is compliant with the appropriate web standards. 
+      As with other cross-platform solutions, the goal is to help 
+      developers build cross-platform apps more easily than they would 
+      with native apps. Progressive web apps employ the progressive enhancement web 
+      development strategy.
+    </p>
+    <p>Some progressive web apps use an architectural approach called the 
+       App Shell Model. In this model, service workers store the Basic User 
+       Interface or "shell" of the responsive web design web application in
+       the browser's offline cache. This model allows for PWAs to maintain 
+       native-like use with or without web connectivity. This can improve 
+       loading time, by providing an initial static frame, a layout or architecture
+       into which content can be loaded progressively as well as dynamically.
+      </p>
+      <select onchange="handleOnChangeEvent(this.value)">
+        <option value="">Select a Image</option>
+        <option value="images/lightblue.jpg">Light Blue</option>
+        <option value="images/lightgold.jpg">Light Gold</option>
+      </select>
     <div id="container"></div>
-    
-      <script>
-        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('service-worker.js');
-        }
-     
-           
-        document.querySelector('#show').addEventListener('click', () => {
-          const imgUrl = document.querySelector('select').selectedOptions[0].value;
-          let imgElement = document.createElement('img');
-            imgElement.src = imgUrl;
-            document.querySelector('#container').appendChild(imgElement);
-         });
-         
-         $('img').css('background-image','url(lightblue.jpg)');
   
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js');
+      }
+
      </script>
 
   </body>
