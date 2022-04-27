@@ -10,22 +10,22 @@
     "display": "standalone",
     "icons":[
         {
-            "src": "pwa/images/boat192.png",
+            "src": "./pwa/images/boat192.png",
             "sizes": "192x192",
             "type": "image/png"
         },  
         {
-            "src": "pwa/images/boat256.png",
+            "src": "./pwa/images/boat256.png",
             "sizes": "256x256",
             "type": "image/png"
         },  
         {
-            "src": "pwa/images/boat384.png",
+            "src": "./pwa/images/boat384.png",
             "sizes": "384x384",
             "type": "image/png"
         },  
         {
-            "src": "pwa/images/boat512.png",
+            "src": "./pwa/images/boat512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
