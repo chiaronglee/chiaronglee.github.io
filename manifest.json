@@ -1,10 +1,9 @@
 {
     "name":"Progressive Web Application",
-    "short_name":"pwa",
+    "short_name":"pwahw",
+    "description":"Homework PWA for CIS 128",
     "lang": "en-US",
-    "id":"https://chiaronglee.github.io/",
-    "start_url":".",
-    "orientation": "portrait",
+    "start_url":"index-hw4.html",
     "background_color": "#6dcdb1",
     "theme_color":"#009578",
     "display": "standalone",
@@ -12,26 +11,22 @@
         {
             "src": "boat192.png",
             "sizes": "192x192",
-            "type": "image/png",
-            "purpose":"any"
+            "type": "image/png"
         },  
         {
             "src": "boat256.png",
             "sizes": "256x256",
-            "type": "image/png",
-            "purpose":"any"
+            "type": "image/png"
         },  
         {
             "src": "boat384.png",
             "sizes": "384x384",
-            "type": "image/png",
-            "purpose":"any"
+            "type": "image/png"
         },  
         {
             "src": "boat512.png",
             "sizes": "512x512",
-            "type": "image/png",
-            "purpose":"any"
+            "type": "image/png"
         }
     ]
 }
