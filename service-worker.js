@@ -8,7 +8,6 @@ var CACHE_FILES = [
     'boat512.png',
     'lightblue.jpg',
     'lightgold.jpg',
-    'app.js',
     'styles-hw4.css',
     'manifest.json'
 ];
