@@ -1,0 +1,11 @@
+body { font-size: 1.2em; font-family: Arial, Verdana, serif; 
+	background-color: lightblue; }
+h2 { color: rgb(154, 23, 23); text-align:center; font-style: italic; }
+.order_list{
+	color: navy;
+	font-weight: bold;
+}
+p{
+	font-size:small;
+}
+h3{ color: navy;}
