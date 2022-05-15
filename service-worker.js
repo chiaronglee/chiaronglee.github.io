@@ -1,14 +1,11 @@
-var CACHE_VERSION = 'myapp-v1';
+var CACHE_VERSION = 'myapp-v2';
 var CACHE_FILES = [
     './',
-    'index-hw4.html',
+    'index5.html',
     'boat192.png',
     'boat256.png',
-    'boat384.png',
     'boat512.png',
-    'lightblue.jpg',
-    'lightgold.jpg',
-    'styles-hw4.css',
+    'styles-hw5.css',
     'manifest.json'
 ];
 
